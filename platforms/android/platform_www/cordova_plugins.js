@@ -468,6 +468,22 @@ module.exports = [
     "merges": [
       "navigator.notification"
     ]
+  },
+  {
+    "id": "cordova-plugin-qrscanner.QRScanner",
+    "file": "plugins/cordova-plugin-qrscanner/www/www.min.js",
+    "pluginId": "cordova-plugin-qrscanner",
+    "clobbers": [
+      "QRScanner"
+    ]
+  },
+  {
+    "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+    "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+    "pluginId": "phonegap-plugin-barcodescanner",
+    "clobbers": [
+      "cordova.plugins.barcodeScanner"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -486,7 +502,9 @@ module.exports.metadata =
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-battery-status": "2.0.1",
   "cordova-plugin-dialogs": "2.0.1",
-  "cordova-plugin-vibration": "3.0.1"
+  "cordova-plugin-vibration": "3.0.1",
+  "cordova-plugin-qrscanner": "2.5.0",
+  "phonegap-plugin-barcodescanner": "7.0.2"
 };
 // BOTTOM OF METADATA
 });
