@@ -144,15 +144,15 @@
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
-              "count": 1
+              "count": 4
             },
             {
               "xml": "<uses-feature android:name=\"android.hardware.camera\" />",
-              "count": 1
+              "count": 4
             },
             {
               "xml": "<uses-feature android:name=\"android.hardware.camera.autofocus\" />",
-              "count": 1
+              "count": 4
             }
           ],
           "application": [
